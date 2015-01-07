@@ -2,7 +2,7 @@
 SECRET="${@}"
 : ${SECRET:=`btsync --generate-secret`}
 
-echo "Starting btsync with secret: $SECRET"
+# echo "Starting btsync with secret: $SECRET"
 
 echo "{
     \"device_name\": \"Sync Server\",

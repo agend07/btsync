@@ -12,6 +12,7 @@ RUN mkdir -p /data
 # reduce btsync log level
 RUN echo '00000000' > /btsync/.sync/debug.txt
 
+EXPOSE 3000
 EXPOSE 8888
 EXPOSE 55555
 
